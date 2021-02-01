@@ -38,13 +38,3 @@ Normal şartlar altında sürekli çevrimiçi olan iki cihaz mevcut. Birer dakik
 
 **Not:** Sistemi yetkisiz erişime açmadıkça istenilen yöntem kullanılabilir. Birinci ve ikinci cihazın kullanıcıları herhangi bir şekilde kodların oluşturulma algoritmasına sahip olmamalıdır.
 
--------
-
-Proje tamamlandıktan sonra Github üzerinde private repo açılarak [Ahmet Özsönmez](https://github.com/aozsonmez) ve [Oktay Sabak](https://github.com/oktaysabak) contributor olarak eklenmelidir.
-
-Cevap -2
-
-Daha önce OTP üzerine hiç çalışmamıştım ama OTP sistemleri hakkında yaptığım araştırmada server tarafında (1. cihaz) oluşturulan OTP'nin aynısı
-frontend'te de kullanıcı cihazı (2. cihaz) için oluşturuluyor. Zaten OTP'ler 90-100 sn süresince geçerli olduğu için 2. cihazın internetinin kesilmesi
-ana serverın (1. cihaz) güvenliğini etkilemez diye düşünüyorum. Çünkü geçerli OTP zaten 90-100 sn sonra 1. cihazda expire olacaktır.
-Kısacası mobil bankacılık için gönderilen kodlar gibi düşündüm.
